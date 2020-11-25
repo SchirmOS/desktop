@@ -12,7 +12,7 @@
 # ☂️ OS with Desktop
 
 Umbrel OS is the operating system of Umbrel Bitcoin and Lightning node. It's based on Raspberry Pi OS (formerly Raspbian) and uses [pi-gen](https://github.com/RPi-Distro/pi-gen) for customization.
-This is version of [Umbrel OS](https://github.com/getumbrel/umbrel-os) with a preinstalled desktop.
+This is version of [Umbrel OS](https://github.com/getumbrel/umbrel-os) with a preinstalled desktop and a few other improvements.
 This version contains no other changes from the default Umbrel OS,
 but it might take longer for the latest commits to be merged, but the latest OTA updates will always be available when they're released for the users of the default Umbrel OS.
 This version is fully compatible to the default Umbrel OS.
@@ -63,7 +63,7 @@ git clone https://github.com/UmbrelOS-Tweaks/desktop.git
 
 Step 2. Switch to repo's directory
 ```
-cd umbrel-os
+cd desktop
 ```
 
 Step 3. BUIDL!
@@ -71,7 +71,7 @@ Step 3. BUIDL!
 sudo ./build.sh
 ```
 
-After the build completes (it can take a looooooong time), the image will be inside `deploy/` directory.
+After the build completes (it can take a looooooong time, it takes about 1h 30min on GitHub actions), the image will be inside `deploy/` directory.
 
 ## 🔧 Advanced
 
