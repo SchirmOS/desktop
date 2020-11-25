@@ -1,6 +1,6 @@
-[![Umbrel OS](https://static.getumbrel.com/github/github-banner-umbrel-os.svg)](https://github.com/getumbrel/umbrel-os)
+[![Umbrel OS](https://static.getumbrel.com/github/github-banner-umbrel-os.svg)](https://github.com/UmbrelOS-Tweaks/desktop)
 
-[![Version](https://img.shields.io/github/v/release/UmbrelOS-Tweaks/desktop?color=%235351FB&label=version)](https://github.com/getumbrel/umbrel-os/releases)
+[![Version](https://img.shields.io/github/v/release/UmbrelOS-Tweaks/desktop?color=%235351FB&label=version)](https://github.com/UmbrelOS-Tweaks/desktop/releases)
 [![Docker Build](https://img.shields.io/github/workflow/status/UmbrelOS-Tweaks/desktop/Run%20Release%20Script%20on%20push%20to%20MASTER?color=%235351FB)](https://github.com/UmbrelOS-Tweaks/desktop/actions?query=workflow%3A"Run+Release+Script+on+push+to+MASTER")
 [![Community Chat](https://img.shields.io/badge/community%20chat-telegram-%235351FB)](https://t.me/getumbrel)
 [![Developer Chat](https://img.shields.io/badge/dev%20chat-keybase-%235351FB)](https://keybase.io/team/getumbrel)
