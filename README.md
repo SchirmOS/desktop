@@ -1,9 +1,9 @@
 [![Umbrel OS](https://static.getumbrel.com/github/github-banner-umbrel-os.svg)](https://github.com/UmbrelOS-Tweaks/desktop)
 
 [![Version](https://img.shields.io/github/v/release/UmbrelOS-Tweaks/desktop?color=%235351FB&label=version)](https://github.com/UmbrelOS-Tweaks/desktop/releases)
-[![Docker Build](https://img.shields.io/github/workflow/status/UmbrelOS-Tweaks/desktop/Run%20Release%20Script%20on%20push%20to%20MASTER?color=%235351FB)](https://github.com/UmbrelOS-Tweaks/desktop/actions?query=workflow%3A"Run+Release+Script+on+push+to+MASTER")
-[![Community Chat](https://img.shields.io/badge/community%20chat-telegram-%235351FB)](https://t.me/getumbrel)
-[![Developer Chat](https://img.shields.io/badge/dev%20chat-keybase-%235351FB)](https://keybase.io/team/getumbrel)
+[![Automated builds](https://img.shields.io/github/workflow/status/UmbrelOS-Tweaks/desktop/Build%20image%20on%20push%20or%20PR?color=%235351FB)](https://github.com/UmbrelOS-Tweaks/desktop/actions?query=workflow%3A"Build+image+on+push+or+PR")
+[![Umbrel Community Chat](https://img.shields.io/badge/community%20chat-telegram-%235351FB)](https://t.me/getumbrel)
+[![Umbrel Developer Chat](https://img.shields.io/badge/dev%20chat-keybase-%235351FB)](https://keybase.io/team/getumbrel)
 
 [![Twitter](https://img.shields.io/twitter/follow/getumbrel?style=social)](https://twitter.com/getumbrel)
 [![Reddit](https://img.shields.io/reddit/subreddit-subscribers/getumbrel?label=Subscribe%20%2Fr%2Fgetumbrel&style=social)](https://reddit.com/r/getumbrel)
@@ -21,7 +21,7 @@ This version is fully compatible to the default Umbrel OS.
 
 To run Umbrel on:
 
-- Raspberry Pi 4 (recommended) — [Download the latest Umbrel OS](https://github.com/UmbrelOS-Tweaks/desktop/releases/latest)
+- Raspberry Pi 4 (recommended) — [Download the latest Umbrel OS](https://github.com/UmbrelOS-Tweaks/desktop/releases/latest) (This version also works on the RPi 400)
 - Any other hardware - [Manually install Umbrel](https://github.com/getumbrel/umbrel#-installation)
 
 ### Instructions:
