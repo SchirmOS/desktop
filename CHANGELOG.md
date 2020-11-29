@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.2.15
+
+- Update to Umbrel v0.2.15
+- Update preinstalled beginners guide
+- Remove most parts of python2 to reduce image size
+- Improved code readability
+- Merge changes from latest pi-gen
+
 ## v0.2.14.2
 
 - Improved configuration otions for SSH
