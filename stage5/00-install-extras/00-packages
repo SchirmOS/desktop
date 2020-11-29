@@ -3,8 +3,8 @@ sonic-pi
 scratch nuscratch scratch2 scratch3
 smartsim
 
-minecraft-pi python-minecraftpi python-picraft python3-picraft
-python-sense-emu sense-emu-tools python-sense-emu-doc
+minecraft-pi python3-picraft
+sense-emu-tools
 
 wolfram-engine
 claws-mail
@@ -12,5 +12,4 @@ greenfoot-unbundled bluej
 nodered
 realvnc-vnc-viewer
 
-python-games
 code-the-classics
