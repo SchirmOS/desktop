@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.2.15-4
+
+- This release fixes a bug that caused Umbrel not to be installed (I know, I should've tested this).
+
 ## v0.2.15-3
 
 - This release fixes a bug that prevented GitHub actions from building images for the previous two releases.
