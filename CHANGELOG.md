@@ -1,9 +1,17 @@
 # Changelog
 
+## v0.2.15-3
+
+- This release fixes a bug that prevented GitHub actions from building images for the previous two releases.
+
+## v0.2.15-2
+
+- This release fixes a bug that prevented the images from being build.
+
 ## v0.2.15-1
 
 There are now three types of images.
-    - **Default**: The default Umbrel OS, based on RPi OS lite, but with all packages from RPi OS except python2 and all improvements in this fork that aren't in Umbrel (yet).
+    - **Default**: The default Umbrel OS, based on RPi OS arm64 lite, but with all packages from RPi OS except python2 and all improvements in this fork that aren't in Umbrel (yet).
     - **Desktop**: The same as RPi OS arm64, but without Python 2. It contains all improvements of this fork.
     - **Full**: The same as RPi OS arm64 full (RPi OS with a few additional packages), but without Python 2. It contains all improvements of this fork.
 
