@@ -66,7 +66,7 @@ Step 2. Switch to repo's directory
 cd desktop
 ```
 
-Step 3. BUIDL!
+Step 3. BUILD!
 ```
 sudo ./build.sh
 ```
