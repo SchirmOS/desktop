@@ -9,18 +9,20 @@
 [![Reddit](https://img.shields.io/reddit/subreddit-subscribers/getumbrel?label=Subscribe%20%2Fr%2Fgetumbrel&style=social)](https://reddit.com/r/getumbrel)
 
 
-# Umbrel OS Tweaks - Base image
+# Umbrel OS Tweaks - Desktop version
 
 Umbrel OS is the operating system of Umbrel Bitcoin and Lightning node. It's based on Raspberry Pi OS (formerly Raspbian) and uses [pi-gen](https://github.com/RPi-Distro/pi-gen) for customization.
 
 This is a modified image that contains the full commit history of pi-gen, and doesn't contain merge and empty commits from Umbrel OS.
 In addition, it contains a few optimizations that aren't in Umbrel OS yet.
 
+In addition, this version contains the Raspberry Pi Desktop to allow you to use your Raspberry Pi with Umbrel running in the background.
+
 ## 🚀 Getting started
 
 To run Umbrel on:
 
-- Raspberry Pi 4 (recommended) — [Download the latest Umbrel OS](https://github.com/UmbrelOS-Tweaks/base/releases/latest)
+- Raspberry Pi 4 (recommended) — [Download the latest Umbrel OS](https://github.com/UmbrelOS-Tweaks/desktop/releases/latest)
 - Any other hardware - [Manually install Umbrel](https://github.com/getumbrel/umbrel#-installation)
 
 ### Instructions:
@@ -34,7 +36,7 @@ To run Umbrel on:
     6. [Ethernet Cable](https://www.amazon.com/gp/product/B07ZTR9K9Z/ref=as_li_tl?ie=UTF8&tag=umbrel08-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B07ZTR9K9Z&linkId=41269d57d8fbc8dfaf312893e689f5be)
     7. [Case](https://www.amazon.com/gp/product/B07WG4DW52/ref=as_li_tl?ie=UTF8&tag=umbrel08-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B07WG4DW52&linkId=738df0605882b2422080f18d8a74e669)
 
-2. Download the [latest release of Umbrel OS](https://github.com/getumbrel/umbrel-os/releases/latest), or [build the image from source](#-build-umbrel-os-from-source).
+2. Download the [latest release of Umbrel OS with desktop](https://github.com/UmbrelOS-Tweaks/desktop/releases/latest), or [build the image from source](#-build-umbrel-os-from-source).
 3. Use an image flasher such as [Balena Etcher](https://github.com/balena-io/etcher) to flash the image to a microSD card.
 4. Put the microSD card in your Raspberry Pi, attach an external SSD or HDD (to USB 3 port), connect the Pi to your router with an ethernet cable.
 5. Turn on the Pi and open http://umbrel.local from any device connected to the same network (it might take a while for it to be accessible).
@@ -57,12 +59,12 @@ SSH is enabled by default and you can use the following credentials to login to 
 
 Step 1. Clone this repo
 ```
-git clone https://github.com/UmbrelOS-Tweaks/base.git
+git clone https://github.com/UmbrelOS-Tweaks/desktop.git
 ```
 
 Step 2. Switch to repo's directory
 ```
-cd base
+cd desktop
 ```
 
 Step 3. BUIDL!
